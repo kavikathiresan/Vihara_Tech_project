@@ -100,7 +100,7 @@ if __name__=='__main__': # passing the arguments directly
     parse.add_argument('--image_size', type=int, default=320, help='size of width * height')
     op = parse.parse_args()
 
-    obj = Yolo_v3() # passing the coco class file
+    obj = Yolo_v3() 
 
     if op.image:
         try:
