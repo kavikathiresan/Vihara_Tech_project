@@ -9,7 +9,7 @@ yolo-coco-data/ : The YOLOv3 object detector pre-trained (on the COCO dataset) m
 images/ : This folder should contain static images which we will be used to perform object detection on for testing and evaluation purposes.
 
 videos/ : This directory should contains sample test videos for testing. After performing object detection with YOLO on video, we’ll process videos in real time camera input. Also Output videos that have been processed by YOLO and annotated with bounding boxes and class names will appear at this location.
-# Run with Code
+# Running This Command
 python filename.py --video path/file/location
 # Redis Database 
 Redis offers a fast, in-memory data store to power live streaming use cases. Redis can be used to store metadata about users' profiles and viewing histories, authentication information/tokens for millions of users, and manifest files to enable CDNs to stream videos to millions of mobile and desktop users at a time.
